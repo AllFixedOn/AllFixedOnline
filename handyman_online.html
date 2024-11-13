@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handyman Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0073e6;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Handyman Online</h1>
+    <p>O seu faz-tudo, em casa ou online!</p>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#services">Serviços</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="home">
+    <h2>Bem-vindo!</h2>
+    <p>Oferecemos serviços manuais e virtuais para facilitar a sua vida. Desde reparações até ajuda com trabalhos escolares, conte connosco!</p>
+</section>
+
+<section id="services">
+    <h2>Serviços</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Montagem de Móveis</h3>
+            <p>Precisa de ajuda com móveis? Nós cuidamos disso para si!</p>
+        </div>
+        <div class="service">
+            <h3>Trabalhos Escolares</h3>
+            <p>Ajuda com apresentações, relatórios ou outras tarefas académicas.</p>
+        </div>
+        <div class="service">
+            <h3>Formações</h3>
+            <p>Cursos rápidos e personalizados para diferentes necessidades.</p>
+        </div>
+        <div class="service">
+            <h3>Serviços Administrativos</h3>
+            <p>Organização, gestão de documentos e muito mais.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contacto connosco pelo formulário abaixo:</p>
+    <form>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Handyman Online. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
